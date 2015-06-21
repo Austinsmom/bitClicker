@@ -1,0 +1,98 @@
+#head {
+	text-align: center;
+	text-decoration: underline;
+	}
+#left-column {
+	float: left;
+	}
+#right-column {
+	float: right;
+	}
+#left-column #saves button {
+	display: block;
+	margin: 10px;
+	}
+#left-column #cookies button {
+	height: 100px;
+	width: 400px;
+	font-size: 50px;
+	}
+#left-column #count {
+	font-size: 25px;
+	font-family: ‘Courier New’, Courier, monospace;
+	color: #333333;
+	}
+#right-column #upgrades {
+	float: right;
+	}
+#right-column #upgrades button {
+	height: 30px;
+	width: 150px;
+	font-size: 13px;
+	}
+#right-column #upgrades h3 {
+	text-decoration: underline;
+	}
+#right-column #upgrades #upgradeOne {
+	border-style: solid;
+	border-width: 2px;
+	margin: 2px;
+	padding: 3px;
+	}
+#right-column #upgrades #upgradeTwo {
+	border-style: solid;
+	border-width: 2px;
+	margin: 2px;
+	padding: 3px;
+	}
+#right-column #upgrades #upgradeThree {
+	border-style: solid;
+	border-width: 2px;
+	margin: 2px;
+	padding: 3px;
+	}
+#right-column #upgrades #upgradeFour {
+	border-style: solid;
+	border-width: 2px;
+	margin: 2px;
+	padding: 3px;
+	}
+#right-column #upgrades #upgradeFive {
+	border-style: solid;
+	border-width: 2px;
+	margin: 2px;
+	padding: 3px;
+	}
+#right-column #upgrades #epicUpgrade {
+	border-style: solid;
+	border-width: 2px;
+	margin: 2px;
+	padding: 3px;
+	}
+#right-column #upgrades #lastUpgrade {
+	border-style: solid;
+	border-width: 2px;
+	margin: 2px;
+	padding: 3px;
+	}
+#right-column #upgrades #upgradeOne #floppyDisk {
+	display: inline;
+	}
+#right-column #upgrades #upgradeTwo #win98 {
+	display: inline;
+	}
+#right-column #upgrades #upgradeThree #ELP {
+	display: inline;
+	}
+#right-column #upgrades #upgradeFour #win7 {
+	display: inline;
+	}
+#right-column #upgrades #upgradeFive #flashMem {
+	display: inline;
+	}
+#right-column #upgrades #epicUpgrade #bulloch {
+	display: inline;
+	}
+#right-column #upgrades #lastUpgrade #last {
+	display: inline;
+	}

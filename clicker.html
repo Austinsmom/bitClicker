@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Clicker</title>
+		<link rel="stylesheet" type="style/css" href="style.css">
+	</head>
+	<body>
+		<div id="head">
+			<h1>BitClicker</h1>
+		</div>
+		<div id="left-column">
+			<div id="cookies">
+				<button type="button" onclick="addOne()">Click Me</button>
+				<p id="count"></p>
+			</div>
+			<div id="saves">
+				<button type="button" onclick="manualSave()">Manual Save</button>
+				<button type="button" onclick="deleteSave()">Delete Save</button>
+				<br>
+				<p id="saveStatus"></p>
+			</div>
+		</div>
+		<div id="right-column">
+			<div id="upgrades">
+				<h3>Upgrades</h3>
+				<p id="upgradeResult"></p>
+				<div id="upgradeOne">
+					<p id="floppyDisk"></p>
+					<button id ="one" type="button" onclick="upgradeOne()" title="8 bytes">Floppy Disk</button>
+					<p id="desOne">A small storage device to help you get started</p>
+					<p id ="costOne">Cost: 8 bytes</p>
+				</div>
+				<div id="upgradeTwo">
+					<p id="win98"></p>
+					<button id="two" type="button" onclick="upgradeTwo()" title="100 bytes">Windows 98</button>
+					<p id="desTwo">An old computer from your neighbour's basement</p>
+					<p id ="costTwo">Cost: 100 bytes</p>
+				</div>
+				<div id="upgradeThree">
+					<p id="ELP"></p>
+					<button id="three" type="button" onclick="upgradeThree()" title="1 megabyte">Entry Lvl Programmer</button>
+					<p id="desThree">A programmer straight out of college</p>
+					<p id ="costThree">Cost: 1 MB</p>
+				</div>
+				<div id="upgradeFour">
+					<p id="win7"></p>
+					<button id="four" type="button" onclick="upgradeFour()" title="1 gigabyte">Windows 7</button>
+					<p id="desFour">A better computer than that old 98 you got there</p>
+					<p id="costFour">Cost: 1 GB</p>
+				</div>
+				<div id="upgradeFive">
+					<p id="flashMem"></p>
+					<button id="five" type="button" onclick="upgradeFive()" title="50 gigabytes">Flash Memory</button>
+					<p id="desFive">Flash memory.  Much better than your floppy disks</p>
+					<p id="costFive">Cost: 50 GB</p>
+				</div>
+				<div id="epicUpgrade">
+					<p id="bulloch"></p>
+					<button id="epic" type="button" onclick="epicUpgrade()" title="1000 terabytes">Mr. Bulloch</button>
+					<p id="desEpic">A programming teacher</p>
+					<p id="costEpic">Cost: 1000 TB</p>
+				</div>
+				<div id="lastUpgrade">
+					<p id="last"></p>
+					<button id="internet" type="button" onclick="internet()" title="A lot">Internet</button>
+					<p id="desLast">The Internet.  Is an explanation necessary?</p>
+					<p id="costLast"></p>
+				</div>
+			</div>
+		</div>
+		<script src="clicker.js"></script>
+	</body>
+</html>
