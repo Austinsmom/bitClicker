@@ -91,13 +91,12 @@ var clearSaveStatus = function() {
 };
 
 var autoSave = function() {
-	var cookieValue = "test";
-	document.cookie = "cookie=" + cookieValue;
 	save.innerHTML = "You game has been saved";
 	setTimeout(clearSaveStatus, 5000);
 };
 
 var manualSave = function() {
+	document.cookie = "cookie=yes";
 	alert("Manually Saved!");
 };
 
@@ -109,6 +108,11 @@ var deleteSave = function() {
 		alert("Delete aborted!");
 	};
 };
+
+var cookieReader = function() {
+	var x = document.cookie;
+	console.log(x);
+}
 
 //Convert bits to bytes and so on
 var convert = function(bits) {
